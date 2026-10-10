@@ -1,0 +1,38 @@
+.movie-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #1b1d26;
+  border-radius: 8px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.movie-card:hover {
+  transform: translateY(-4px);
+}
+
+.movie-poster {
+  width: 100%;
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+}
+
+.movie-info {
+  flex: 1;
+  padding: 10px;
+}
+
+.movie-title {
+  margin: 0 0 6px;
+  font-size: 16px;
+  color: #fff;
+}
+
+.movie-nota {
+  color: #fbbf24;
+}
+
+.botao-favorito {
+  margin: 0 10px 10px;
+}
